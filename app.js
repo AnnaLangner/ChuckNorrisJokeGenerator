@@ -4,7 +4,7 @@ function getJokes(e) {
 
   const number = document.getElementById('number-of-jokes').value;
   
-  const url = `http://api.icndb.com/jokes/random/${number}`;
+  const url = `https://api.icndb.com/jokes/random/${number}`;
   
   const xhr = new XMLHttpRequest();
   xhr.open('GET', url, true);
